@@ -1,0 +1,38 @@
+h1 {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.ttt {
+    text-align: center;
+
+}
+
+.board {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 315px;
+    padding: 0px;
+    list-style: none;
+    margin: 0 auto;
+    border-bottom: solid black 5px;
+    border-left: solid black 5px;
+}
+
+.square {
+    background: grey;
+    display: inline-block;
+    color: black;
+    /* border: solid black 5px; */
+    border-right: solid black 5px;
+    border-top: solid black 5px;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
+}
